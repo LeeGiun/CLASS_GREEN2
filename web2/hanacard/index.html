@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- 하나폰트 -->
+    <link rel="stylesheet" href="css/font/stylesheet.css">
+    <title>HANA CARD</title>
+    <!-- 파비콘 -->
+    <link rel="shortcut icon" href="../img/favicon.jpg" type="image/x-icon">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"/>
+    <!-- SNS (모바일 링크 전송시) -->
+    <!-- og는 open graph의 약어 -->
+    <!-- property는 오픈그래프의 속성을 이용해서
+        더 많은 정보를 입력할 수 있다. -->
+    <meta property="og:type" content="website"/>
+    <meta property="og:site_name" content="hanacard"/>
+    <meta property="og:title" content="하나카드"/> <!-- 제목 -->
+    <meta property="og:description" content="하나금융 하나카드"/>
+    <meta property="og:image" content="../img/card01.png"/>
+    <meta property="og:url" content="http://suuneee.dothome.co.kr/web/hanacard/index.html"/>
+    <!-- 
+    og:type : 페이지의 유형 (website, video, movie)
+    og:site_name : 속한 사이트의 이름
+    og:title 페이지의 이름(제목)
+    og:description : 페이지의 간단한 설명/내용
+    페이지의 설명은 간단하되 너무 길면 악성페이지로
+    인식하는 경우가 있어 주의가 필요함.
+    og:image : 페이지의 대표 이미지 주소
+    og:url 페이지의 주소(URL) -->
+
+    <!-- 서버에서 사용할때 주소를 넣는다. (FTP 서버작업할때) -->
+    
+    <!-- 단일 태그는 항상 끝에 / 마무리 표시를 해준다. -->
+    <!-- 리액트에서는 필수로 해야함. -->
+    <!-- img도 단일태그로 HTML에선 해줘도 되고 안해줘도 되지만,
+    해주는 습관을 가지도록 해야함. -->
+</head>
+<body>
+    <!-- #warp>#header>.container>.header단축어
+    <div id="warp">
+        <div id="header">
+            <div class="container">
+                <div class="header"></div>
+            </div>
+        </div>
+    </div> -->
+    <div id="warp">
+        <div id="header">
+            <div class="container">
+                <div class="header clearfix">
+                    <!-- ul.list1>li>a 단축어
+                    <ul class="list1">
+                        <li><a href=""></a></li>
+                    </ul> -->
+                    <ul class="list1">
+                        <li class="green"><a href="#">개인</a></li>
+                        <li><a href="#">기업</a></li>
+                        <li><a href="#">가맹점</a></li>
+                    </ul>
+                    <!-- ul.list2>li>a 단축어
+                    <ul class="list2">
+                        <li><a href=""></a></li>
+                    </ul> -->
+                    <ul class="list2">
+                        <li class="logo"><a href="#">로그인</a></li>
+                        <li><a href="#">상품공시실</a></li>
+                        <li><a href="#">금융소비보호</a></li>
+                        <li><a href="#">English</a></li>
+                    </ul>
+                </div> <!-- // . header clearfix END -->
+            </div> <!-- // .container END -->
+        </div> <!-- //#header END -->
+        <div id="banner">
+            <div class="container">
+                <div class="ban_left">
+                    <div class="obj">
+                        <!-- p.ob.ob$*17 단축어 -->
+                        <p class="ob ob1"><!-- 구름1 -->
+                            <img src="../img/ev49_obj_01.png" alt="구름1">
+                        </p> <!-- // .ob ob1 END -->
+                        <p class="ob ob2"><!-- 구름2 -->
+                            <img src="../img/ev49_obj_02.png" alt="구름2">
+                        </p> <!-- // .ob ob2 END -->
+                        <p class="ob ob3"><!-- 달력 -->
+                            <img src="../img/ev49_obj_03.png" alt="달력">
+                        </p> <!-- // .ob ob3 END -->
+                        <p class="ob ob4"><!-- 쇼핑할땐 -->
+                            <img src="../img/ev43_obj_02.png" alt="쇼핑할땐">
+                        </p> <!-- // .ob ob4 END -->
+                        <p class="ob ob5"><!-- 타이틀 -->
+                            <img src="../img/ev43_obj_03.png" alt="타이틀">
+                        </p> <!-- // .ob ob5 END -->
+                        <p class="ob ob6"><!-- 1 (11) -->
+                            <img src="../img/ev43_obj_04.png" alt="1">
+                        </p> <!-- // .ob ob6 END -->
+                        <p class="ob ob7"><!-- 1 (11) -->
+                            <img src="../img/ev43_obj_04.png" alt="1">
+                        </p> <!-- // .ob ob7 END -->
+                        <p class="ob ob8"><!-- 우산 -->
+                            <img src="../img/ev49_obj_04.png" alt="우산">
+                        </p> <!-- // .ob ob8 END -->
+                        <p class="ob ob9"><!-- 수트케이스 -->
+                            <img src="../img/ev49_obj_05.png" alt="수트케이스">
+                        </p> <!-- // .ob ob9 END -->
+                        <p class="ob ob10"><!-- 자동차 -->
+                            <img src="../img/ev49_obj_06.png" alt="자동차">
+                        </p><!-- // .ob ob10 END -->
+                        <p class="ob ob11"><!-- 선물 -->
+                            <img src="../img/ev49_obj_07.png" alt="선물">
+                        </p><!-- // .ob ob11 END -->
+                        <p class="ob ob12"><!-- 박스 -->
+                            <img src="../img/ev49_obj_08.png" alt="">
+                        </p><!-- // .ob ob12 END -->
+                        <p class="ob ob13"><!-- 가방 -->
+                            <img src="../img/ev49_obj_09.png" alt="가방">
+                        </p><!-- // .ob ob13 END -->
+                        <p class="ob ob14"><!-- 바람1 -->
+                            <img src="../img/ev49_obj_10.png" alt="바람1">
+                        </p><!-- // .ob ob14 END -->
+                        <p class="ob ob15"><!-- 바람2 -->
+                            <img src="../img/ev49_obj_11.png" alt="바람2">
+                        </p><!-- // .ob ob15 END -->
+                        <p class="ob ob16"><!-- 원 (바람개비) -->
+                            <img src="../img/ev49_obj_12.png" alt="원">
+                        </p><!-- // .ob ob16 END -->
+                        <p class="ob ob17"><!--써프라이즈-->
+                            <img src="../img/ev49_obj_13.png" alt="써프라이즈">
+                        </p><!-- // .ob ob17 END -->
+                    </div> <!-- // .obj END -->
+                </div><!-- //.ban_left END -->
+                <div class="ban_right">
+                    <div class="br_tit">
+                        <h3>VIVA G platinum </br>체크카드</h3>
+                        <!-- </br> -> break line 약자 한칸 떨어뜨리기 -->
+                        <p>홈페이지/모바일웹에서 카드를 최초로 발급하시면
+                            <br><strong>연회비 100% 캐쉬백!</strong>
+                        </p>
+                        <!-- .login_btn>ul>li>a 단축어 -->
+                        <div class="login_btn">
+                            <ul>
+                                <li class="lb1"><a href="#">로그인</a></li>
+                                <li class="lb2"><a href="#">회원가입</a></li>
+                            </ul>
+                        </div> <!-- // .login_btn END -->
+                    </div> <!-- //.br_tit END -->
+                    <div class="br_btn">
+                        <!-- ul>li*4>a 단축어 -->
+                        <ul>
+                            <li><a href="#">이용대금명세서</a></li>
+                            <li><a href="#">결제예정금액</a></li>
+                            <li><a href="#">카드이용내역</a></li>
+                            <li><a href="#">한도상황</a></li>
+                        </ul>
+                        <!-- ol과 ul은 무조건 자식은 li만 사용가능 -->
+                        <!-- 또한 li는 단독적으로 사용하면 안된다. -->
+                    </div> <!-- //.br_btn END -->
+                </div><!-- //.ban_right END -->
+            </div> <!-- // .container END -->
+        </div> <!-- //#banner END -->
+        <!-- #contents>#cont1.container 단축어 -->
+        <div id="contents">
+            <div id="cont1">
+                <div class="container">
+                    <!-- 메인메뉴 gnb 글로벌 네이게이션 바 -->
+                    <!-- ul.gnb>li>a/ 단축어 -->
+                    <nav id="nav"> 
+                        <!-- ★ nav -> 메뉴를 만들기 위한 태그 -->
+                        <ul class="gnb">
+                            <li><a href="#">마이페이지</a></li>
+                            <li><a href="#">카드</a></li>
+                            <li><a href="#">금융</a></li>
+                            <li><a href="#">혜택</a></li>
+                            <li><a href="#">라이프</a></li>
+                            <li><a href="#">모바일</a></li>
+                            <li><a href="#">고객센터</a></li>
+                        </ul> <!-- // .gnb END -->
+                        <ul class="gnb_right">
+                            <li class="gr1"><a href="#">간편서비스</a></li>
+                            <li class="gr2"><a href="#">
+                                전체메뉴 <i class="fas fa-bars"></i></a></li>
+                        </ul> <!-- // .gnb_right END -->
+                        <a href="#" class="gnb_search">
+                            <span class="ir">통합검색</span> <!-- 인라인 -->
+                            <i class="ir">레이어팝업 열림</i> <!-- 인라인 -->
+                            <!-- ir 클래스를 통해 화면에
+                                노출되지 않게끔 reset.css를 통해
+                                안보이게 처리하고
+                                장애인분들이 웹페이지를 활용할때
+                                어떤 영역인지 알 수 있게끔 처리 -->
+                        </a> <!-- // .gnb_search END -->
+                        <a href="#" class="gnb_event">
+                            Event <i class="fas fa-plus"></i>
+                        </a> <!-- // .gnb_event END -->
+                    </nav> <!-- // #nav END -->
+                    <div id="card" class="clearfix">
+                        <div class="card_img">
+                            <h4>추천카드</h4>
+                            <!-- .card_banner>ul>li>a 단축어 -->
+                            <div class="card_banner">
+                                <ul class="clearfix">
+                                    <li>
+                                        <a href="#">
+                                        <img src="../img/card01.png" alt="카드01">
+                                        <!-- a태그는 인라인
+                                        img도 인라인
+                                    인라인요소안에는 인라인요소만 -->
+                                        <em>국내외 전 가맹점 0.7%</em></a>
+                                        <!-- <em>태그는 강조의 이미(기울임) -->
+                                        <!-- <strong>도 강조   -->
+                                        <!-- <em>태그는 인라인 요소이나
+                                        이미지보다 아래 위치하는 이유는
+                                        공간이 부족해서 아래로 떨어짐-->
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                        <img src="../img/card02.png" alt="카드02">
+                                        <em>SK텔레콤 2천~1만5천</em></a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                        <img src="../img/card03.png" alt="카드03">
+                                        <em>온라인 쇼핑/마트 주중</em></a>
+                                    </li>
+                                </ul>
+                            </div> <!-- // .card_banner END -->
+                            <!-- .card_link>ul>li*4>a 단축어 -->
+                            <div class="card_link">
+                                <ul class="clearfix">
+                                    <li><a href="#">카드발급조회</a></li>
+                                    <li><a href="#">카드사용등록</a></li>
+                                    <li><a href="#">분실도난</a></li>
+                                    <li><a href="#">카드비밀번호 등록/변경</a></li>
+                                </ul>
+                            </div> <!-- // .card_link END -->
+                            <a href="#" class="cardmore-btn ir">
+                                추천카드 더보기</a>
+                        </div> <!-- //.card_img END -->
+                        <div class="card_desc">
+                            <!-- dl>dt+dd.cd1 단축어 -->
+                            <dl>
+                                <dt>원하는 365 언제나!</dt>
+                                <dd class="cd1"> 이번달, 지출 증가<br> 쉽고 편리하게 대출을 받을  수 있을까 </dd>
+                                <!-- dd.cd2>ul>li*3>a 단축어 -->
+                                <dd class="cd2">
+                                    <ul>
+                                        <li><a href="#">단기카드대출</a></li>
+                                        <li><a href="#">장기카드대출</a></li>
+                                        <li><a href="#">일부결제금액이월약정</a></li>
+                                    </ul>
+                                </dd>
+                            </dl>
+                        </div> <!-- //.card_desc END -->
+                    </div> <!-- //#card END -->
+                    <!-- #event>.event_box$*3 단축어 -->
+                    <div id="event" class="clearfix">
+                        <div class="event_box1">
+                            <!-- .eb_banner$*3>p.eb_desc+h4.eb_tit 단축어 -->
+                            <div class="eb_banner1">
+                                <p class="eb_desc">원하는 정보와 쌓이는 혜택</p>
+                                <h4 class="eb_tit">웹 회원가입</h4>
+                            </div> <!-- //.eb_banner1 END -->
+                            <div class="eb_banner2">
+                                <p class="eb_desc">유용한 정보를 미리 준비하세요!</p>
+                                <h4 class="eb_tit">해외 이용 가이드</h4>
+                            </div> <!-- //.eb_banner2 END -->
+                            <div class="eb_banner3">
+                                <p class="eb_desc">특별한 혜택을 누리세요</p>
+                                <h4 class="eb_tit">VIP Service</h4>
+                            </div> <!-- //.eb_banner3 END -->
+                        </div> <!-- // .event_box1 END -->
+                        <div class="event_box2">
+                            <div class="eb_banner4"></div> <!-- // .eb_banner4 END -->
+                            <div class="eb_banner5"></div> <!-- .eb_banner5 END -->
+                        </div> <!-- // .event_box2 END -->
+                        <div class="event_box3">
+                            event_box3
+                        </div> <!-- // .event_box3 END -->
+                    </div> <!-- // # event END -->
+                </div> <!-- //.container END -->
+            </div> <!-- // #cont1 END -->
+        </div> <!-- // #contents END -->
+    </div> <!-- // #warp END -->
+
+    <img src="/web2/img/SVG1.svg" alt="">
+    <!-- 이미지형태로 SVG파일을 불러올 수 있다. -->
+    <!-- SVG파일은 확대하거나 축소해도 이미지가 변형되거나
+    깨지지 않는다. (보이는 모습 그대로 유지됨.) -->
+</body>
+</html>
